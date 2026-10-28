@@ -28,28 +28,38 @@ section{padding:48px 0}h2{font-size:28px;margin-bottom:6px}.sub{color:var(--mut)
 .case{padding:22px}.case h3{margin:6px 0 8px}.case ul{margin:10px 0 0 18px;color:var(--mut);font-size:14.5px}
 .pill{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:5px 12px;margin:4px 6px 0 0;font-size:13px;color:var(--mut)}
 .two{display:grid;grid-template-columns:1.2fr 1fr;gap:34px}@media(max-width:760px){.two{grid-template-columns:1fr}nav a{margin-left:12px}}
+.herogrid{display:grid;grid-template-columns:1fr 280px;gap:40px;align-items:center}.me{width:260px;height:260px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid var(--line);justify-self:center}@media(max-width:760px){.herogrid{grid-template-columns:1fr}.me{width:180px;height:180px;order:-1;justify-self:start}}
+.facts{margin:10px 0 0 18px;color:var(--mut);font-size:14.5px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}.gallery figure{border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--card);aspect-ratio:4/5;cursor:zoom-in}.g-motion figure{aspect-ratio:16/10}.g-design figure{aspect-ratio:1/1}.g-design img{object-fit:contain;background:#fff}.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.gallery figure:hover img{transform:scale(1.04)}
+#lb{position:fixed;inset:0;background:rgba(5,9,18,.94);display:none;place-items:center;z-index:20;cursor:zoom-out}#lb img{max-width:92vw;max-height:92vh;border-radius:8px}
 footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-size:14px}
 </style></head><body>
-<nav><div class="wrap"><b>Rodrigo Vega Izcoa</b><div><a href="#work">Work</a><a href="#thesis">Thesis</a><a href="#client">Client work</a><a href="#film">Film</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></nav>
-<header class="hero"><div class="wrap">
+<nav><div class="wrap"><b>Rodrigo Vega Izcoa</b><div><a href="#about">About</a><a href="#work">Work</a><a href="#client">Client work</a><a href="#thesis">Thesis</a><a href="#ibero">Studio &amp; design</a><a href="#contact">Contact</a></div></div></nav>
+<header class="hero"><div class="wrap herogrid"><div>
 <div class="kicker">Video Editor · Post-Production · Digital Storyteller</div>
 <h1>I turn raw footage into stories people finish watching.</h1>
 <p>Bilingual remote editor working with US teams. Social promos, documentary, multicam and vertical short-form, cut in DaVinci Resolve, Premiere Pro and After Effects.</p>
 <a class="cta" href="#work">Watch my work</a><a class="cta ghost" href="#contact">Get in touch</a>
-</div></header>
+</div><img class="me" src="assets/yo.jpg" alt="Rodrigo Vega Izcoa"></div></header>
 
-<section><div class="wrap"><h2>Showreel</h2><p class="sub">60–90 seconds. Best shot first.</p>
-<!-- REPLACE: paste your Vimeo/YouTube embed iframe here -->
-<div class="reel"><div><b>Showreel coming soon</b><br>Upload to Vimeo and paste the embed code here.</div></div></div></section>
+<section id="about"><div class="wrap two"><div><h2>About me</h2>
+<p class="sub" style="max-width:none">I'm Rodrigo, a video editor and filmmaker from Puebla, Mexico. I studied Communication at IBERO Puebla and I'm now doing an MFA in Filmmaking at CINEMA.</p>
+<p class="sub" style="max-width:none">Since 2023 I've worked remotely with US teams: first as a digital storyteller for Living Water Ministries in Michigan, filming camp programs on site and editing the footage for campaigns and fundraising, and since March 2026 as a video editor for Vedenmedia, an Atlanta-based agency, cutting social promos, interviews and long-form videos for commercial clients.</p>
+<p class="sub" style="max-width:none">At university I also produced weekly Reels for IBERO's institutional channels, and did studio photography, motion graphics and graphic design. My graduation project, <a href="#thesis" style="color:var(--acc)">Entre Sombras</a>, is a short-film teaser backed by a research manual on using AI inside a real production workflow.</p>
+<p class="sub" style="max-width:none">I work in English and Spanish, edit in DaVinci Resolve, Premiere Pro and After Effects, and I'm available for full-time or contract remote work.</p></div>
+<div><h2>Tools</h2><span class="pill">DaVinci Resolve Studio</span><span class="pill">Premiere Pro</span><span class="pill">After Effects</span><span class="pill">Photoshop</span><span class="pill">Illustrator</span><span class="pill">Audition</span><span class="pill">CapCut</span><span class="pill">Topaz Video AI</span><span class="pill">ElevenLabs</span>
+<h2 style="margin-top:26px">Quick facts</h2>
+<ul class="facts"><li>Based in Puebla, Mexico, working in US time zones</li><li>English (fluent, TOEFL ITP) and Spanish (native)</li><li>B.A. Communication, IBERO Puebla</li><li>MFA Filmmaking, CINEMA (in progress)</li><li>Also: studio photography, motion graphics, graphic design</li></ul></div></div></section>
 
 <section id="work"><div class="wrap"><h2>Living Water Ministries</h2>
 <p class="sub">Camp storytelling for a Michigan nonprofit, produced remotely from Mexico. Nine videos on the organization's YouTube channel, from weekly recaps to a 7:40 impact film. I filmed on site and edited the footage for recruitment and fundraising.</p>
 <div class="grid" id="lw"></div></div></section>
 
-<section id="thesis"><div class="wrap"><h2>Graduation project: Entre Sombras</h2>
+<section id="thesis"><div class="wrap"><h2>Graduation project and film</h2>
 <p class="sub">A short-film teaser made with a mixed human + AI workflow, documented in a full research manual on AI for audiovisual production (Spanish). Written and directed by me.</p>
 <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">
 <div class="card"><div class="v" data-id="nmwNupB0074"><img loading="lazy" alt="Entre Sombras teaser" src="https://i.ytimg.com/vi/nmwNupB0074/hqdefault.jpg"></div><div class="b"><div class="tag">Teaser</div><h3>Entre Sombras: Teaser Trailer</h3></div></div>
+<div class="card"><div class="v" data-id="HmiWHwlWb4Q"><img loading="lazy" alt="El truco del siglo video essay" src="https://i.ytimg.com/vi/HmiWHwlWb4Q/hqdefault.jpg"></div><div class="b"><div class="tag">Video essay · CINEMA</div><h3>El truco del siglo</h3><p class="meta">A two-voice debate on AI and cinema, built from archive footage, stock, AI-generated imagery and synthetic voices. Spanish audio.</p></div></div>
 <div class="card case"><div class="tag">Research</div><h3>AI for Audiovisual Production: "More with Less"</h3><p class="meta">Case study with prompts, costs and time savings for pre-production, shooting and post (VFX in After Effects, restoration, voice). Cited sources and a step-by-step workflow.</p><p><a class="cta" style="margin:16px 0 0" href="https://royo2000.github.io/ia-produccion-audiovisual/">Read the research</a></p></div>
 </div></div></section>
 
@@ -71,15 +81,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-siz
 <div class="card case"><div class="tag">Color</div><h3>Log grading and custom LUTs</h3><p class="meta">Canon C-Log3 footage matched to each brand's look.</p><ul><li>Before/after breakdown available</li></ul></div>
 </div></div></section>
 
-<section id="film"><div class="wrap"><h2>Film &amp; experiments</h2><p class="sub">Work from my MFA studies and personal projects.</p>
-<div class="grid">
-<div class="card"><div class="v ph" style="display:grid;place-items:center;color:var(--mut);cursor:default">Add video: "El truco del siglo"</div><div class="b"><div class="tag">Video essay · CINEMA</div><h3>El truco del siglo</h3><p class="meta">A two-voice debate on AI and cinema, built from archive footage, stock, AI-generated imagery and synthetic voices. Spanish, English subtitles to be added.</p></div></div>
-<div class="card"><div class="v ph" style="display:grid;place-items:center;color:var(--mut);cursor:default">Add video: restoration before/after</div><div class="b"><div class="tag">Restoration</div><h3>Hi8 and MiniDV, restored</h3><p class="meta">Capture plus AI upscaling and face recovery in Topaz Video AI.</p></div></div>
-</div></div></section>
-
-<section id="about"><div class="wrap two"><div><h2>About</h2>
-<p class="sub" style="max-width:none">I'm a Communication graduate (IBERO Puebla) and MFA Filmmaking student at CINEMA. I edit remotely for a US video agency, and I've produced weekly Reels for a university's official channels. I work in English and Spanish and deliver on schedule across time zones.</p></div>
-<div><h2>Tools</h2><span class="pill">DaVinci Resolve Studio</span><span class="pill">Premiere Pro</span><span class="pill">After Effects</span><span class="pill">Photoshop</span><span class="pill">Illustrator</span><span class="pill">Audition</span><span class="pill">CapCut</span><span class="pill">Topaz Video AI</span><span class="pill">ElevenLabs</span></div></div></section>
+<section id="ibero"><div class="wrap"><h2>Studio, motion and design</h2><p class="sub">Work from my university years at IBERO Puebla. Tap an image to enlarge.</p>
+<h3 style="margin:34px 0 6px">Studio and product photography</h3><p class="meta" style="margin:0 0 14px;max-width:680px">Lighting exercises with one to four lights, an experimental long-exposure portrait and product shots on seamless background.</p><div class="gallery"><figure><img loading="lazy" src="assets/studio1.jpg" alt="Studio portrait, three-light setup"></figure><figure><img loading="lazy" src="assets/studio2.jpg" alt="Studio portrait on white floor, four-light setup"></figure><figure><img loading="lazy" src="assets/studio3.jpg" alt="Studio portrait with side light"></figure><figure><img loading="lazy" src="assets/studio4.jpg" alt="Experimental portrait with red and blue light"></figure><figure><img loading="lazy" src="assets/studio5.jpg" alt="Long-exposure portrait with moving subject"></figure><figure><img loading="lazy" src="assets/studio6.jpg" alt="Dance portrait with arms raised"></figure><figure><img loading="lazy" src="assets/studio7.jpg" alt="Product photo of a bottle and glass"></figure></div>
+<h3 style="margin:34px 0 6px">Motion graphics</h3><p class="meta" style="margin:0 0 14px;max-width:680px">Character animation and compositing for a 30-second commercial exercise in After Effects: rigged characters, parallax backgrounds, sound design.</p><div class="gallery g-motion"><figure><img loading="lazy" src="assets/motion1.jpg" alt="Animated stomach character leaning on a table leg"></figure><figure><img loading="lazy" src="assets/motion2.jpg" alt="Animated pill character with cape beside the product"></figure><figure><img loading="lazy" src="assets/motion3.jpg" alt="Pink title card with animated characters"></figure></div>
+<h3 style="margin:34px 0 6px">Graphic design and social content</h3><p class="meta" style="margin:0 0 14px;max-width:680px">Illustrator carousel on a guitar icon, plus social graphics made during my IBERO service work.</p><div class="gallery g-design"><figure><img loading="lazy" src="assets/design1.jpg" alt="Illustrator carousel about a famous guitar"></figure><figure><img loading="lazy" src="assets/design2.jpg" alt="Social media carousel cover for a migrant entrepreneurship program"></figure><figure><img loading="lazy" src="assets/design3.jpg" alt="Course announcement art for a music appreciation class"></figure><figure><img loading="lazy" src="assets/design4.jpg" alt="Social media post about marketing strategies"></figure></div>
+</div></section>
 
 <footer id="contact"><div class="wrap"><h2 style="color:var(--ink)">Let's work together</h2><p style="margin:6px 0 14px">Puebla, Mexico · Remote, US time zones</p>
 <a class="cta" href="mailto:veizroy2@gmail.com">veizroy2@gmail.com</a>
@@ -102,4 +108,7 @@ vids.forEach(([id,t,m])=>{const c=document.createElement('div');c.className='car
 c.innerHTML=`<div class="v" data-id="${id}"><img loading="lazy" alt="${t}" src="https://i.ytimg.com/vi/${id}/hqdefault.jpg"></div><div class="b"><h3>${t}</h3><p class="meta">${m} · Editor</p></div>`;
 g.appendChild(c)});
 document.querySelectorAll('.v[data-id]').forEach(v=>{v.onclick=()=>{const id=v.dataset.id;v.innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" allow="autoplay;encrypted-media;fullscreen" allowfullscreen></iframe>`;v.onclick=null}});
+const lb=document.createElement('div');lb.id='lb';lb.innerHTML='<img alt="">';document.body.appendChild(lb);
+document.querySelectorAll('.gallery figure').forEach(f=>f.onclick=()=>{lb.querySelector('img').src=f.querySelector('img').src;lb.querySelector('img').alt=f.querySelector('img').alt;lb.style.display='grid'});
+lb.onclick=()=>lb.style.display='none';
 </script></body></html>
